@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #ffffff;
+    background-image: url('https://davidmmasters.com/wp-content/uploads/2018/04/trauma-inspired-programming.gif'); /* Ruta de la imagen de fondo */
+    background-size:auto;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1{
+    color: #ffff;
+    font-weight: bold;
+    position: relative;  
+}
+
+h2, h3 {
+    color: #ffff;
+    font-weight: bold;
+}
+
+nav {
+    padding: 10px 0;
+    font-weight: bold;
+}
+nav ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display:inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+section {
+    padding: 20px 0;
+}
+.container {
+    max-width: 800px;
+    max-height: 1000px;
+    margin: 0 auto;
+}
+.container-inicio {
+    max-width: 800px;
+    max-height: 1000px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.parrafo-negro{
+    background-color: #000000;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bolder;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+button[type="submit"] {
+    background-color: #303336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #54575b;
+}
+
+.imagen-top-derecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+}
+
+.imagen-footer{
+    display: inline-block;
+}
+
+.imagen-perfil{
+    width: 300px;
+}
+
+.imagen-sobre-mi{
+    max-width: 250px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.contenedor-parrafo {
+    margin-bottom: 20px; /* Añade un margen inferior para separar los contenedores */
+}
+
+.contenedor-parrafo img {
+    float:left; /* Hace que la imagen flote a la izquierda */
+    margin-right: 10px; /* Añade un margen a la derecha de la imagen para separarla del parrafo */
+}
+
+
+section img {
+    display: block; /* Hace que la imagen sea un bloque para poder ajustar su tamaño */
+    max-width: 100%; /* La imagen no superara el ancho de su contenedor */
+    height: auto; /* La altura se ajusta automaticamente para mantener la proporcion */
+    margin-top: 20px; /* Margen superior para separar la imagen del contenido */
+    margin-bottom: 20px; /* Margen inferior para separar la imagen del siguiente contenido */
+}
+
+#inicio img {
+    margin-top: 50px; /* Ajusta el margen superior para la imagen en la seccion de inicio */
+}
+
+#contacto img {
+    margin-bottom: 50px; /* Ajusta el margen inferior para la imagen en la seccion de contacto */
+}
+
+footer {
+    padding: 20px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .redes-sociales a {
+    margin: 0 10px; /* Espacio entre los iconos */
+  }
+  
